@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Minitube
+Comment=Watch YouTube videos
+GenericName=YouTube app
+Exec=minitube
+Terminal=false
+Type=Application
+Icon=minitube
+Categories=Qt;AudioVideo;Video;Player;
+StartupNotify=true
+Actions=TogglePlaying;Next;Previous;
+X-XFCE-Source=file:///usr/local/share/applications/minitube.desktop
+
+[Desktop Action TogglePlaying]
+Name=Play/Pause
+Exec=minitube --toggle-playing
+
+[Desktop Action Next]
+Name=Next
+Exec=minitube --next
+
+[Desktop Action Previous]
+Name=Previous
+Exec=minitube --previous

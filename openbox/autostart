@@ -1,0 +1,12 @@
+## Set background (hopefully...)
+#feh --bg-fill /home/toby/Dropbox/Pictures/wallpapers/arch/archbinary.png
+
+tint2 &
+/home/toby/Dropbox/X11/xbin/xsetup &
+/home/toby/Dropbox/X11/xbin/keyX &
+rm /home/toby/.obmxdg.xml &
+(sleep 15s && parcellite) &
+(sleep 20s && volumeicon) &
+(sleep 30s && dropbox-cli start) &
+(sleep 60s && caffeine) &
+(sleep 90s && /home/toby/Dropbox/X11/xbin/zzzpm) &

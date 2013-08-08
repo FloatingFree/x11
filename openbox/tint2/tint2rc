@@ -1,0 +1,114 @@
+#---------------------------------------------
+# TINT2 CONFIG FILE
+#---------------------------------------------
+
+#---------------------------------------------
+# BACKGROUND AND BORDER
+#---------------------------------------------
+rounded = 0
+border_width = 0
+background_color = #002b36 100
+border_color = #002b36 100
+
+rounded = 0
+border_width = 0
+background_color = #001a24 100
+border_color = #001a24 100
+
+rounded = 0
+border_width  2
+background_color = #002b36 100
+border_color = #aaaaaa 100
+
+#---------------------------------------------
+# PANEL
+#---------------------------------------------
+#panel_items = TBSC
+panel_monitor = all
+panel_position = top center
+panel_size = 100% 24
+panel_margin = 0 0
+panel_padding = 0 0
+font_shadow = 1
+panel_background_id = 0
+wm_menu = 1
+
+#---------------------------------------------
+# AUTOHIDE
+#---------------------------------------------
+autohide = 1 
+autohide_show_timeout = 0.3 
+autohide_hide_timeout = 2 
+autohide_height = 2 
+strut_policy = follow_size
+
+#---------------------------------------------
+# TASKBAR
+#---------------------------------------------
+taskbar_mode = multi_desktop
+taskbar_padding = 0 0 0
+taskbar_background_id = 2
+taskbar_active_background_id = 1
+
+#---------------------------------------------
+# TASKS
+#---------------------------------------------
+task_icon = 1
+task_text = 0
+task_width = 40
+task_centered = 1
+task_padding = 0 0
+task_font = Sans Bold 8
+task_font_color = #ababab 100
+task_active_font_color = #ababab 100
+task_background_id = 1
+task_active_background_id = 2
+
+#---------------------------------------------
+# BATTERY
+#---------------------------------------------
+battery = 1
+battery_low_status = 7
+battery_low_cmd = notify-send "battery low"
+bat1_font = Sans Bold 8
+bat2_font = Sans 6
+battery_font_color = #ababab 100
+battery_padding = 0 0
+battery_background_id = 1
+
+# System Tray
+systray = 1
+systray_padding = 8 2 4
+systray_sort = ascending
+systray_background_id = 1
+systray_icon_size = 20
+
+#---------------------------------------------
+# CLOCK
+#---------------------------------------------
+time1_format = %H:%M
+time2_format = %d/%m/%y
+time1_font = Sans Bold 8
+time2_font = Sans 6
+clock_font_color = #ababab 100
+clock_padding = 8 0
+clock_background_id = 1
+clock_lclick_command = google-chrome https://www.google.com/calendar/
+clock_rclick_command = google-chrome http://www.metoffice.gov.uk/weather/uk/radar/
+
+# Tooltips
+tooltip = 1
+tooltip_padding = 2 2
+tooltip_show_timeout = 0.0
+tooltip_hide_timeout = 0.0
+tooltip_background_id = 1
+tooltip_font_color = #ababab 100
+tooltip_font = Sans 8
+
+#---------------------------------------------
+# MOUSE ACTION ON TASK
+#---------------------------------------------
+mouse_middle = toggle
+mouse_right = toggle
+mouse_scroll_up = toggle
+mouse_scroll_down = toggle

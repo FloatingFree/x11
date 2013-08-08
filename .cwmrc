@@ -1,0 +1,38 @@
+borderwidth 0
+color font white
+color selfont yellow
+color menubg black
+color menufg blue 
+
+bind 4-w firefox
+bind 4-t "xterm -maximize -e tmux attach"
+bind 4-e "xterm -e vim"
+
+bind M-F7 "xset dpms force off"
+bind M-F8 "xbacklight -10"
+bind M-F9 "xbacklight +10"
+bind M-F10 "mixerctl outputs.master.mute=toggle"
+bind M-F11 "mixerctl outputs.master=-10"
+bind M-F12 "mixerctl outputs.master=+10"
+
+command calc 'libreoffice --calc'
+command cmus 'xterm -e cmus'
+command draw 'libreoffice --draw'
+command firefox firefox
+command impress 'libreoffice --impress'
+command gimp gimp
+command gmail 'chrome -open mail.google.com'
+command lynx 'xterm -e lynx'
+command mutt 'xterm -e mutt'
+command ranger 'xterm -e python2.7 /home/toby/git/ranger/ranger.py'
+command thunderbird thunderbird
+command tmux 'xterm -maximize -e tmux attach'
+command top 'xterm -e top'
+command vim 'xterm -e vim'
+command vlc vlc
+command writer 'libreoffice --writer'
+command xcalc xcalc
+command xconsole xconsole
+command xombrero xombrero
+command xterm xterm
+command zathura zathura

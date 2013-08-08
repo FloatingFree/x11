@@ -1,0 +1,13 @@
+*loginShell:true
+*background:black
+*foreground:white
+*cursorColor:darkblue
+*scrollBar:off
+*borderWidth:0
+*internalBorder:0
+*externalBorder:0
+*metaSendsEscape:true
+*selectToClipboard:true
+!*facename:xft:monospace:pixelsize=11
+xclock*foreground:white
+xclock*hands:white

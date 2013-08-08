@@ -1,0 +1,18 @@
+setxkbmap -option 'caps:swapescape,lv3:ralt_alt,terminate:ctrl_alt_bksp'
+
+xmodmap -e "keysym Menu = Control_R"
+
+if [ $(hostname) = "paddy" ]; then
+	xmodmap -e "keysym Print = Super_R"
+        xinput set-prop 13 'Device Accel Profile' 6
+        xinput set-prop 13 'Evdev Wheel Emulation' 3
+        xinput set-prop 13 'Evdev Wheel Emulation Button' 1
+        synclient TouchpadOff=1
+fi
+
+xset r rate 345 53 s 80 dpms 100 111 120
+#feh --bg-fill /home/toby/img/wallpapers/galaxy.jpg
+
+#eval "$(gpg-agent --daemon)"
+xrdb ~/.Xresources
+/usr/bin/monster
