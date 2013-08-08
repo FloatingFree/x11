@@ -7,7 +7,7 @@ if [ $(hostname) = "paddy" ]; then
         xinput set-prop 13 'Device Accel Profile' 6
         xinput set-prop 13 'Evdev Wheel Emulation' 3
         xinput set-prop 13 'Evdev Wheel Emulation Button' 1
-        synclient TouchpadOff=1
+        #synclient TouchpadOff=1
 fi
 
 xset r rate 345 53 s 80 dpms 100 111 120
