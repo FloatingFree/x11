@@ -12,6 +12,6 @@ xset r rate 345 53 s 80 dpms 100 111 120
 #feh --bg-fill /home/toby/img/wallpapers/galaxy.jpg
 
 xrdb ~/.Xresources
-#/home/toby/Dropbox/bin/gpg-ssh-agent
-eval "$(gpg-agent -s --enable-ssh-support --daemon)"
+/home/toby/Dropbox/bin/gpg-ssh-agent
+#eval "$(gpg-agent -s --enable-ssh-support --daemon)"
 /usr/bin/spectrwm
