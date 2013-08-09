@@ -13,4 +13,5 @@ xset r rate 345 53 s 80 dpms 100 111 120
 
 #eval "$(gpg-agent --daemon)"
 xrdb ~/.Xresources
+/home/toby/Dropbox/bin/gpg-ssh-agent
 /usr/bin/spectrwm
